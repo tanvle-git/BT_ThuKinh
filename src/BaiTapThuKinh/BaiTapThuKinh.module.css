@@ -1,0 +1,18 @@
+.backgroundImg{
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow:auto; 
+}
+
+.backgroundOverlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #00000055;
+    overflow:auto; 
+}
